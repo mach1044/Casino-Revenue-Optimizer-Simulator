@@ -1,0 +1,20 @@
+# Java build output
+out/
+out2/
+*.class
+
+# Python
+__pycache__/
+*.pyc
+
+# Runtime scratch state (regenerated on every run)
+ml/eval-state/
+rl-exchange/
+
+# Large regenerable training data (see README for the regen command);
+# the averaged, checked-in version (training_data_avg.csv) is kept.
+ml/training_data.csv
+
+# Batch run output (regenerated on every run)
+BatchResults/*
+!BatchResults/.gitkeep
